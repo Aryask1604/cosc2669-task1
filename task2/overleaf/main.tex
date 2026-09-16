@@ -1,0 +1,145 @@
+%% ==========================================================================
+%% COSC2669 Individual Task 2 -- Arya Khamkar (s4152566)
+%% Skeleton only: headings, placeholders and LaTeX patterns. All content is yours to write.
+%%
+%% HOW TO USE: copy your Task 1 Overleaf project (Menu -> Copy), keep its
+%% \documentclass line and preamble, and replace everything between
+%% \maketitle and \end{document} with the body below. Or upload this file
+%% plus references.bib to a new acmart project.
+%% ==========================================================================
+\documentclass[manuscript,nonacm]{acmart} % <- keep your Task 1 options if different
+
+\usepackage{booktabs}   % \toprule \midrule \bottomrule for tables
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+
+\setcitestyle{authoryear,round} % gives Author (Year) with \citet and (Author, Year) with \citep; delete for numeric ACM style
+
+\begin{document}
+
+\title{Individual Task 2}
+\subtitle{COSC2669 Case Studies in Data Science}
+
+\author{Arya Khamkar}
+\affiliation{%
+  \institution{RMIT University}
+  \city{Melbourne}
+  \country{Australia}}
+\email{s4152566@student.rmit.edu.au}
+
+\maketitle
+
+%% ==========================================================================
+\section{Part 1: Executive Summary}
+\label{sec:part1}
+%% 750--1000 words (excluding references). No (pseudo-)code.
+%% Chosen paper: \citet{TODO_paper_key}
+%% Needs 5--10 additional in-text citations (peer-reviewed; Task 1 feedback).
+%% Case study must NOT be one of the paper's own examples.
+
+\subsection{Purpose and Audience}
+
+\subsection{Main Argument and Contributions}
+
+\subsection{Case Study}
+
+\subsection{Challenges}
+
+\subsection{Opportunities}
+
+\subsection{Conclusion}
+
+%% ==========================================================================
+\section{Part 2: Deliberation on Task 1}
+\label{sec:part2}
+%% Reflect on Task 1 Part 1 analysis (NBL attendance + telecom churn).
+
+\subsection{(a) Cross-Validation and Sampling}
+\label{sec:cv}
+
+%% --- Table pattern (fill with YOUR notebook results) ---------------------
+% \begin{table}[h]
+%   \caption{TODO caption: cross-validated performance (mean $\pm$ std) vs Task 1 single split.}
+%   \label{tab:cv}
+%   \begin{tabular}{llcc}
+%     \toprule
+%     Dataset & Model & Task 1 split & CV mean $\pm$ std \\
+%     \midrule
+%     Attendance & SVR     &  &  \\
+%     Attendance & XGBoost &  &  \\
+%     Churn      & SVC     &  &  \\
+%     Churn      & XGBoost &  &  \\
+%     \bottomrule
+%   \end{tabular}
+% \end{table}
+%% Refer in text with Table~\ref{tab:cv}
+
+\subsection{(b) Learning Curves}
+\label{sec:lc}
+
+%% --- Figure pattern (upload PNG to figures/ first) -----------------------
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=\linewidth]{lc_attendance.png}
+%   \caption{TODO caption.}
+%   \label{fig:lc-attendance}
+% \end{figure}
+%% Refer in text with Figure~\ref{fig:lc-attendance}
+
+\subsection{(c) Bias and Fairness Assessment}
+\label{sec:fairness}
+
+\subsection{(d) Security, Privacy and Ethical Risks}
+\label{sec:risks}
+
+\paragraph{Security.}
+
+\paragraph{Privacy.}
+
+\paragraph{Ethics.}
+
+%% ==========================================================================
+\section{Part 3: Peer Review}
+\label{sec:part3}
+%% ~400 words. Name the video reviewed. Professional, constructive tone.
+
+\paragraph{Video reviewed.} TODO (student name or submission title)
+
+\subsection{Summary}
+
+\subsection{Soundness and Significance}
+
+\subsection{Executive-Level Insights}
+
+\subsection{Presentation Quality}
+
+\subsection{Suggestions}
+
+%% ==========================================================================
+\section*{Generative AI Attribution}
+%% Paste the statement generated at https://aiattribution.github.io/
+TODO
+
+%% ==========================================================================
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+%% ==========================================================================
+\appendix
+
+\section{Code Repository}
+\label{app:code}
+%% \url{https://github.com/Aryask1604/cosc2669-task1/tree/main/task2}
+
+\section{Key Output Tables}
+\label{app:tables}
+
+\section{Issues Encountered and Fixes}
+\label{app:issues}
+
+\section{Generative AI Process Log (Summary)}
+\label{app:ailog}
+%% Summarise PROCESS_LOG.md: prompts, outputs, what you accepted/rejected/changed and why.
+%% Add 2--4 screenshots using the figure pattern above.
+
+\end{document}

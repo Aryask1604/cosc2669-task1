@@ -1,0 +1,12 @@
+# Data files are not committed (same as Task 1) - see README for sources
+data/*.csv
+# macOS / Jupyter / Anaconda clutter
+.DS_Store
+.ipynb_checkpoints/
+anaconda_projects/
+# LaTeX build files (if compiling locally)
+overleaf/*.aux
+overleaf/*.log
+overleaf/*.bbl
+overleaf/*.blg
+overleaf/*.out
